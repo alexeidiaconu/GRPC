@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: grpc-client
+
+grpc:
+  client:
+    use-concurrency-limits: true
+    logging-enabled: true
+    caller-type: system
